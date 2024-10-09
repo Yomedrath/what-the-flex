@@ -602,7 +602,6 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap: 2rem;
   --tw-bg-opacity: 1;
   background-color: rgb(187 247 208 / var(--tw-bg-opacity));
 }
