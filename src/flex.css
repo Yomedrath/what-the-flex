@@ -25,7 +25,7 @@
   @apply flex-grow bg-blue-400 ;
 }
 .footer-layout {
-  @apply flex flex-row justify-around bg-green-200;
+  @apply flex flex-row justify-evenly bg-green-200;
 }
 
 .footer-col {
