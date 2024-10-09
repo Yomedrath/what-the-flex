@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/flex.css -o ./src/tailwind.css",
-    "watch:css": "npx tailwindcss -i ./src/flex.css -o ./src/tailwind.css --watch",
-    "watch:v0": "npx tailwindcss -i ./src/v0.css -o ./src/v0tailwind.css --watch"
+    "watch:css": "npx tailwindcss -i ./src/flex.css -o ./src/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
