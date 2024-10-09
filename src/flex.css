@@ -24,6 +24,10 @@
 .box-blue {
   @apply flex-grow bg-blue-400 ;
 }
-.box-green {
-  @apply bg-green-400 ;
+.footer-layout {
+  @apply flex flex-row justify-evenly bg-green-200;
+}
+
+.footer-col {
+  @apply bg-green-400;
 }
