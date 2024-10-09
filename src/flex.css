@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  @apply w-full bg-gray-400;
-}
-
 .flex-layout {
   @apply flex flex-row /*sm:flex-row*/ bg-gray-100;
 }
@@ -15,28 +11,19 @@
 }
 
 .page-layout {
-  @apply flex flex-col bg-slate-500 w-3/4 h-full m-auto
+  @apply flex flex-col bg-slate-500 w-3/4 h-full m-auto gap-2
 }
 
-.box-red, .box-blue, .box-green, .box-yellow, .box-purple, .box-pink {
-  @apply  m-2 outline outline-2 outline-black/50 text-center content-center;
+.box {
+  @apply outline outline-2 outline-black/50 text-center content-center;
 }
 
  .box-red {
   @apply bg-red-400 ;
 }
 .box-blue {
-  @apply flex-grow h-full bg-blue-400 ;
+  @apply flex-grow bg-blue-400 ;
 }
 .box-green {
   @apply bg-green-400 ;
-}
-.box-yellow {
-  @apply bg-yellow-400 ;
-}
-.box-purple {
-  @apply bg-purple-400 ;
-}
-.box-pink {
-  @apply bg-pink-400 ;
 }
