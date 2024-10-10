@@ -11,7 +11,7 @@
 }
 
 .page-layout {
-  @apply flex flex-col bg-slate-500 md:w-3/4 w-full h-full m-auto gap-2
+  @apply flex flex-col bg-slate-500 sm:w-[85%] lg:w-3/4 w-full h-full m-auto gap-2
 }
 
 .box {
@@ -25,7 +25,7 @@
   @apply flex-grow bg-blue-400 ;
 }
 .footer-layout {
-  @apply flex flex-row justify-evenly bg-green-200;
+  @apply flex flex-col md:flex-row justify-evenly gap-4 md:gap-2 bg-green-200;
 }
 
 .footer-col {

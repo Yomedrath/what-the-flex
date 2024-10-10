@@ -579,7 +579,13 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
+  .page-layout {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1024px) {
   .page-layout {
     width: 75%;
   }
@@ -606,10 +612,18 @@ video {
 
 .footer-layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+  gap: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .footer-layout {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
 }
 
 .footer-col {
