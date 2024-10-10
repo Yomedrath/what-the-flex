@@ -572,11 +572,17 @@ video {
   margin: auto;
   display: flex;
   height: 100%;
-  width: 75%;
+  width: 100%;
   flex-direction: column;
   gap: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .page-layout {
+    width: 75%;
+  }
 }
 
 .box {
