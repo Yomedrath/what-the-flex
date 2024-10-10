@@ -28,7 +28,7 @@ main {
 }
 
 .sidebar-container {
-  @apply sm:inline h-full min-w-[20%] max-w-[30%];
+  @apply hidden sm:inline h-full min-w-[20%] max-w-[30%];
   @apply bg-blue-300 text-center content-center;
 }
 
@@ -39,11 +39,32 @@ main {
 
 .stage {
   @apply max-w-full min-h-[10%];
-  @apply text-center content-center bg-teal-100;
+  @apply text-center content-center bg-teal-300;
 }
 
 .content-area {
-  @apply flex-grow /*flex grid*/ bg-teal-200;
+  @apply flex flex-col flex-grow gap-4;
+  @apply bg-teal-300;
+}
+
+/* Full-width Text Component */
+.full-width-text {
+  @apply w-full p-4 bg-teal-200 text-black rounded-lg shadow-md;
+}
+
+/* Card Container (Grid Layout) */
+.card-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+  @apply rounded-lg bg-teal-200;
+}
+
+.card {
+  @apply p-4 bg-teal-100 text-black rounded-lg shadow-md;
+}
+
+/* Accordion Component */
+.accordion {
+  @apply p-4 bg-teal-200 rounded-lg shadow-md;
 }
 
 footer {
@@ -54,4 +75,8 @@ footer {
 
 .footer-col {
   @apply bg-green-400;
+}
+
+.content-container * {
+  @apply rounded-lg;
 }
